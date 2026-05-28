@@ -11,7 +11,7 @@ export function Hero() {
       <div className="hero__grid">
         <div className="hero__copy">
           <div className="hero__eyebrow">
-            <Kicker>[&nbsp;01&nbsp;] AI Services Studio · Mumbai</Kicker>
+            <Kicker>[&nbsp;01&nbsp;] AI Services Providers · Mumbai</Kicker>
             <span className="tag">
               <span className="pulse" />
               en-IN · hi-IN · mr-IN
