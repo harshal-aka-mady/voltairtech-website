@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CONTENT } from "@/lib/content";
 import { SectionHead } from "./atoms/SectionHead";
 import { ServiceGlyph } from "./atoms/ServiceGlyph";
@@ -13,7 +14,7 @@ export function Services() {
         />
         <div className="svc-grid">
           {CONTENT.services.map((s) => (
-            <article key={s.n} className="svc-card">
+            <Link key={s.n} href={`/services/${s.slug}`} className="svc-card" aria-label={s.title}>
               <span className="svc-card__num">[ {s.n} ]</span>
               <span className="svc-card__arrow">↗</span>
               <div style={{ width: 56, height: 56, marginTop: 22 }}>
@@ -30,7 +31,7 @@ export function Services() {
                   ETA — <b>{s.eta}</b>
                 </div>
               ) : null}
-            </article>
+            </Link>
           ))}
         </div>
       </div>

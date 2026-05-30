@@ -55,7 +55,7 @@ export function Monogram() {
         <div className="v-mono__plate v-mono__plate--photo" ref={plateRef}>
           <Image
             className="v-mono__img"
-            src="/logo-landscape.jpg"
+            src="/logo-landscape.webp"
             alt="Voltair Tech monogram on a starfield"
             fill
             sizes="(max-width: 980px) 100vw, 50vw"

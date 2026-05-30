@@ -1,7 +1,7 @@
 # Voltairtech Website — CLAUDE.md
 
 ## Project overview
-Marketing website for **Voltaire Tech** (voltairtech.com) — Mumbai's AI build studio. Tagline: "Ship AI in 48 hours."
+Marketing website for **Voltair Tech** (voltairtech.com) — Mumbai's AI build studio. Tagline: "Ship AI in 48 hours."
 
 Originally a static Babel/JSX single-page site; fully migrated to **Next.js 14 App Router with TypeScript**.
 

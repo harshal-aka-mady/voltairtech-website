@@ -6,9 +6,9 @@ import { MarqueeSection } from "@/components/MarqueeSection";
 import { FooterCta } from "@/components/FooterCta";
 
 export const metadata: Metadata = {
-  title: "Voltaire Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
+  title: "Voltair Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
   description:
-    "Voltaire Tech is a Mumbai AI build studio shipping production apps, chatbots, automations and RAG systems in 48 hours. Indian operators, global standards.",
+    "Voltair Tech is a Mumbai AI build studio shipping production apps, chatbots, automations and RAG systems in 48 hours. Indian operators, global standards.",
   alternates: {
     canonical: "https://voltairtech.com/",
   },
@@ -19,14 +19,27 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      name: "Voltaire Tech",
+      name: "Voltair Tech",
       url: "https://voltairtech.com",
       logo: "https://voltairtech.com/assets/logo-mark-black.png",
+      email: "business@voltairtech.com",
+      description:
+        "Mumbai-based AI build studio shipping production apps, chatbots, automations and RAG systems. Websites in 48 hours.",
       sameAs: ["https://www.linkedin.com/company/voltairtech"],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91 70210 00764",
+        contactType: "sales",
+        areaServed: "IN",
+        availableLanguage: ["English", "Hindi", "Marathi"],
+      },
     },
     {
       "@type": "LocalBusiness",
-      name: "Voltaire Tech",
+      name: "Voltair Tech",
+      url: "https://voltairtech.com",
+      image: "https://voltairtech.com/assets/logo-square-starfield.jpg",
+      priceRange: "₹₹",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Andheri West",
@@ -44,7 +57,7 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      name: "Voltaire Tech",
+      name: "Voltair Tech",
       url: "https://voltairtech.com",
       potentialAction: {
         "@type": "SearchAction",

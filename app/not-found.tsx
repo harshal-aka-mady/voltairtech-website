@@ -72,7 +72,7 @@ export default function NotFound() {
               fontSize: "0.95rem",
             }}
           >
-            ← Back to Voltaire Tech
+            ← Back to Voltair Tech
           </Link>
         </div>
       </body>

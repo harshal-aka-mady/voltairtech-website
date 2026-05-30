@@ -23,11 +23,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://voltairtech.com"),
   title: {
-    default: "Voltaire Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
-    template: "%s | Voltaire Tech",
+    default: "Voltair Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
+    template: "%s | Voltair Tech",
   },
   description:
-    "Voltaire Tech is a Mumbai AI build studio shipping production apps, chatbots, automations and RAG systems in 48 hours. Indian operators, global standards.",
+    "Voltair Tech is a Mumbai AI build studio shipping production apps, chatbots, automations and RAG systems in 48 hours. Indian operators, global standards.",
   keywords: [
     "AI services Mumbai",
     "AI agency India",
@@ -38,27 +38,27 @@ export const metadata: Metadata = {
     "AI startup Mumbai",
     "DPDP Act 2023 compliance",
   ],
-  authors: [{ name: "Voltaire Tech", url: "https://voltairtech.com" }],
-  creator: "Voltaire Tech",
+  authors: [{ name: "Voltair Tech", url: "https://voltairtech.com" }],
+  creator: "Voltair Tech",
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://voltairtech.com",
-    siteName: "Voltaire Tech",
-    title: "Voltaire Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
+    siteName: "Voltair Tech",
+    title: "Voltair Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
     description: "Mumbai-based AI build studio. Apps, chatbots, RAG, automation. Shipped in 48 hours.",
     images: [
       {
         url: "/assets/logo-square-starfield.jpg",
         width: 1200,
         height: 630,
-        alt: "Voltaire Tech — AI Services Mumbai",
+        alt: "Voltair Tech — AI Services Mumbai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Voltaire Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
+    title: "Voltair Tech — AI Services Mumbai | Build & Deploy in 48 Hours",
     description: "Mumbai-based AI build studio. Apps, chatbots, RAG, automation. Shipped in 48 hours.",
     images: ["/assets/logo-square-starfield.jpg"],
   },

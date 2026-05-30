@@ -4,7 +4,7 @@ import { LegalLayout } from "@/components/LegalLayout";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Voltaire Tech's privacy policy — how we collect, use, and protect your personal data under the DPDP Act 2023 and applicable Indian law.",
+    "Voltair Tech's privacy policy — how we collect, use, and protect your personal data under the DPDP Act 2023 and applicable Indian law.",
   alternates: {
     canonical: "https://voltairtech.com/privacy",
   },
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
   return (
     <LegalLayout title="Privacy Policy" lastUpdated="May 2026">
       <p>
-        Voltaire Tech (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is an AI services studio incorporated in Mumbai,
+        Voltair Tech (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is an AI services studio incorporated in Mumbai,
         Maharashtra, India. This Privacy Policy explains how we collect, use, and protect
         personal data when you visit <strong>voltairtech.com</strong> or engage us for
         services. We comply with India&apos;s Digital Personal Data Protection (DPDP) Act 2023
@@ -115,7 +115,7 @@ export default function PrivacyPage() {
         <p>
           To exercise your rights or raise a grievance, contact our Grievance Officer:
           <br /><br />
-          <strong>Voltaire Tech</strong><br />
+          <strong>Voltair Tech</strong><br />
           Andheri West, Mumbai, Maharashtra 400053, India<br />
           Email: <a href="mailto:business@voltairtech.com">business@voltairtech.com</a><br />
           Phone: +91 70210 00764<br />

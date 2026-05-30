@@ -502,3 +502,24 @@ body { background: var(--v-paper); color: var(--v-ink); overflow-x: hidden; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
   .marquee__track { animation: none !important; }
 }
+
+/* ====================  ARTICLE / SERVICE PROSE PAGES  ==================== */
+a.svc-card { text-decoration: none; color: inherit; }
+.legal-page h3 { font-family: var(--font-display), "Inter Tight", sans-serif; font-weight: 700; font-size: 1.1rem; letter-spacing: -0.01em; color: var(--v-ink); margin-top: var(--s-6); margin-bottom: var(--s-3); }
+.legal-page strong { color: var(--v-ink); font-weight: 700; }
+.legal-page__lead { font-size: 1.2rem; line-height: 1.6; color: var(--fg1); margin-bottom: var(--s-6); }
+.legal-page__crumb { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-mono), "JetBrains Mono", monospace; font-size: 12px; letter-spacing: 0.04em; color: var(--fg3); margin-bottom: var(--s-6); }
+.legal-page__crumb a { color: var(--fg3); }
+.legal-page__crumb a:hover { color: var(--v-red); text-decoration: none; }
+.prose-table-wrap { overflow-x: auto; margin: 0 0 var(--s-5); border: 1px solid var(--border); border-radius: var(--r-2); }
+.legal-page table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.legal-page th, .legal-page td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; color: var(--fg2); }
+.legal-page thead th { font-family: var(--font-mono), "JetBrains Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--v-ink); background: var(--v-paper-2); }
+.legal-page tbody tr:last-child td { border-bottom: none; }
+.legal-page table strong { color: var(--v-red); }
+.post-list { display: flex; flex-direction: column; gap: var(--s-4); margin-top: var(--s-6); }
+.post-list a { display: block; padding: var(--s-5); border: 1px solid var(--border); border-radius: var(--r-3); background: var(--v-paper-2); text-decoration: none; transition: border-color var(--dur-2), transform var(--dur-2); }
+.post-list a:hover { border-color: var(--v-red); transform: translateY(-2px); }
+.post-list h2 { margin: 0 0 6px; font-size: 1.25rem; color: var(--v-ink); }
+.post-list p { margin: 0; font-size: 0.95rem; }
+.post-list .post-kicker { font-family: var(--font-mono), "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.06em; color: var(--v-red); text-transform: uppercase; display: block; margin-bottom: 8px; }

@@ -1,6 +1,6 @@
 export const CONTENT = {
   brand: {
-    name: "VOLTAIRTECH",
+    name: "Voltair Tech",
     tagline: "AI services, built for India.",
     sub: "Apps, automations, chatbots, RAG, full software — engineered with AI by a Mumbai team. Websites ship in 48 hours.",
     location: "Andheri West, Mumbai",
@@ -27,6 +27,7 @@ export const CONTENT = {
       bullets: ["Next.js · RSC", "Streaming UIs", "Razorpay · Stripe · Auth"],
       glyph: "web" as const,
       eta: "48 hrs",
+      slug: "ai-websites",
     },
     {
       n: "02",
@@ -34,6 +35,7 @@ export const CONTENT = {
       bullets: ["n8n workflows", "Trigger → action chains", "Slack / Sheets / WA"],
       glyph: "auto" as const,
       eta: "1–2 weeks",
+      slug: "ai-automation",
     },
     {
       n: "03",
@@ -41,6 +43,7 @@ export const CONTENT = {
       bullets: ["WhatsApp Business API", "Hindi / Marathi / English", "ElevenLabs voices"],
       glyph: "chat" as const,
       eta: "1 week",
+      slug: "whatsapp-chatbot",
     },
     {
       n: "04",
@@ -48,6 +51,7 @@ export const CONTENT = {
       bullets: ["Chunk → embed → retrieve", "Pinecone / pgvector", "Citation-grade answers"],
       glyph: "rag" as const,
       eta: "2–3 weeks",
+      slug: "rag-systems",
     },
     {
       n: "05",
@@ -55,6 +59,7 @@ export const CONTENT = {
       bullets: ["React Native + Expo", "On-device ML", "Play + App Store ship"],
       glyph: "mobile" as const,
       eta: "4–8 weeks",
+      slug: "mobile-apps",
     },
     {
       n: "06",
@@ -62,6 +67,7 @@ export const CONTENT = {
       bullets: ["LLM integrations", "Tool-use agents", "Eval + guardrails"],
       glyph: "soft" as const,
       eta: "scoped",
+      slug: "custom-ai-software",
     },
   ],
 
@@ -108,7 +114,7 @@ export const CONTENT = {
   faq: [
     {
       q: "Who builds AI products in Mumbai?",
-      a: "VOLTAIRTECH is an AI services studio based in Andheri West, Mumbai. We work with Indian startups, enterprises, and global teams that need a fast Indian build partner. Our team is on the ground in IST and reachable on WhatsApp during business hours.",
+      a: "Voltair Tech is an AI services studio based in Andheri West, Mumbai. We work with Indian startups, enterprises, and global teams that need a fast Indian build partner. Our team is on the ground in IST and reachable on WhatsApp during business hours.",
     },
     {
       q: "How fast can you deploy a website?",
@@ -124,7 +130,7 @@ export const CONTENT = {
     },
     {
       q: "Best AI agency in Maharashtra?",
-      a: "VOLTAIRTECH is Mumbai-headquartered and serves clients across Maharashtra and the rest of India. We're DPDP Act 2023 compliant, Razorpay-native, and have shipped 42+ AI products since 2024. References available on request after an NDA.",
+      a: "Voltair Tech is Mumbai-headquartered and serves clients across Maharashtra and the rest of India. We're DPDP Act 2023 compliant, Razorpay-native, and have shipped 42+ AI products since 2024. References available on request after an NDA.",
     },
     {
       q: "Do you build WhatsApp chatbots?",

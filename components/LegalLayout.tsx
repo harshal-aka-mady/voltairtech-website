@@ -46,7 +46,7 @@ export function LegalLayout({
               </Link>
               <h1>{title}</h1>
               <div className="legal-page__meta">
-                Last updated: {lastUpdated} · Voltaire Tech · Andheri West, Mumbai · India
+                Last updated: {lastUpdated} · Voltair Tech · Andheri West, Mumbai · India
               </div>
               {children}
             </div>
@@ -64,7 +64,7 @@ export function LegalLayout({
         }}
       >
         <div className="container" style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 16, fontFamily: "var(--font-mono), 'JetBrains Mono', monospace", fontSize: 12 }}>
-          <span>© 2026 VOLTAIRTECH · voltairtech.com</span>
+          <span>© 2026 VOLTAIR TECH · voltairtech.com</span>
           <span style={{ display: "flex", gap: 18 }}>
             <Link href="/privacy" style={{ color: "inherit" }}>Privacy</Link>
             <Link href="/terms" style={{ color: "inherit" }}>Terms</Link>

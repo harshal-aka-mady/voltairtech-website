@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { label: "Timeline", href: "/timeline" },
   { label: "RAG", href: "/rag" },
   { label: "Work", href: "/work" },
+  { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
 ];
 

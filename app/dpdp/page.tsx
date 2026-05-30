@@ -4,7 +4,7 @@ import { LegalLayout } from "@/components/LegalLayout";
 export const metadata: Metadata = {
   title: "DPDP Act 2023 Compliance",
   description:
-    "How Voltaire Tech complies with India's Digital Personal Data Protection (DPDP) Act 2023 — data principal rights, consent framework, and grievance redressal.",
+    "How Voltair Tech complies with India's Digital Personal Data Protection (DPDP) Act 2023 — data principal rights, consent framework, and grievance redressal.",
   alternates: {
     canonical: "https://voltairtech.com/dpdp",
   },
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "DPDP Act 2023 Compliance — Voltaire Tech",
+  name: "DPDP Act 2023 Compliance — Voltair Tech",
   url: "https://voltairtech.com/dpdp",
   description:
-    "Voltaire Tech's compliance framework under India's Digital Personal Data Protection Act 2023.",
+    "Voltair Tech's compliance framework under India's Digital Personal Data Protection Act 2023.",
   publisher: {
     "@type": "Organization",
-    name: "Voltaire Tech",
+    name: "Voltair Tech",
     url: "https://voltairtech.com",
   },
 };
@@ -36,7 +36,7 @@ export default function DpdpPage() {
         <p>
           India&apos;s Digital Personal Data Protection (DPDP) Act 2023 is a landmark law that
           governs how organisations collect, process, and store personal data of Indian citizens.
-          Voltaire Tech takes compliance seriously. This page explains how we implement our
+          Voltair Tech takes compliance seriously. This page explains how we implement our
           obligations as a Data Fiduciary and how you can exercise your rights as a Data
           Principal.
         </p>
@@ -55,7 +55,7 @@ export default function DpdpPage() {
 
         <h2>Our Role as Data Fiduciary</h2>
         <p>
-          When you share personal data with Voltaire Tech — via our website, email, WhatsApp,
+          When you share personal data with Voltair Tech — via our website, email, WhatsApp,
           or phone — we act as a Data Fiduciary. We determine the purpose and means of
           processing your data and are accountable for its protection.
         </p>
@@ -105,7 +105,7 @@ export default function DpdpPage() {
 
         <h2>Significant Data Fiduciary</h2>
         <p>
-          Voltaire Tech does not currently meet the thresholds to be designated a Significant
+          Voltair Tech does not currently meet the thresholds to be designated a Significant
           Data Fiduciary by the Central Government. We will update this page and our compliance
           programme if we are designated in the future.
         </p>
@@ -152,7 +152,7 @@ export default function DpdpPage() {
             To exercise any of your rights or raise a data protection concern, contact our
             Grievance Officer:
             <br /><br />
-            <strong>Grievance Officer — Voltaire Tech</strong><br />
+            <strong>Grievance Officer — Voltair Tech</strong><br />
             Andheri West, Mumbai, Maharashtra 400053, India<br />
             Email: <a href="mailto:business@voltairtech.com">business@voltairtech.com</a><br />
             Phone: +91 70210 00764<br />

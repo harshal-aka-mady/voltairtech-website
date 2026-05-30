@@ -4,7 +4,7 @@ import { LegalLayout } from "@/components/LegalLayout";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Voltaire Tech's terms of service — fixed-price engagements, IP ownership, deliverables, support, and governing law for AI services in India.",
+    "Voltair Tech's terms of service — fixed-price engagements, IP ownership, deliverables, support, and governing law for AI services in India.",
   alternates: {
     canonical: "https://voltairtech.com/terms",
   },
@@ -15,15 +15,15 @@ export default function TermsPage() {
   return (
     <LegalLayout title="Terms of Service" lastUpdated="May 2026">
       <p>
-        These Terms of Service (&quot;Terms&quot;) govern your engagement with Voltaire Tech
-        (&quot;we&quot;, &quot;us&quot;, or &quot;Voltaire Tech&quot;) for AI development services. By initiating
+        These Terms of Service (&quot;Terms&quot;) govern your engagement with Voltair Tech
+        (&quot;we&quot;, &quot;us&quot;, or &quot;Voltair Tech&quot;) for AI development services. By initiating
         a project with us — whether via email, WhatsApp, phone, or web form — you agree to
         these Terms. Please read them before proceeding.
       </p>
 
       <h2>1. Services</h2>
       <p>
-        Voltaire Tech provides AI product development services including, but not limited to:
+        Voltair Tech provides AI product development services including, but not limited to:
         website development, AI automation, chatbot and voice agent development, RAG system
         configuration, mobile app development, and custom AI software. The specific scope,
         deliverables, timeline, and price for each engagement are agreed in a written Statement
@@ -115,7 +115,7 @@ export default function TermsPage() {
         <p>
           For any questions about these Terms, reach us at:
           <br /><br />
-          <strong>Voltaire Tech</strong><br />
+          <strong>Voltair Tech</strong><br />
           Andheri West, Mumbai, Maharashtra 400053, India<br />
           Email: <a href="mailto:business@voltairtech.com">business@voltairtech.com</a><br />
           Phone: +91 70210 00764

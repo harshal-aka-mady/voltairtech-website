@@ -1,8 +1,8 @@
-# Voltaire Tech — voltairtech.com
+# Voltair Tech — voltairtech.com
 
 > Mumbai's AI build studio. Ship AI in 48 hours.
 
-Static, framework-free website for **Voltaire Tech**. Built with React 18 (via Babel standalone) + plain CSS. **No build step required.** Drop on any static host and it works.
+Static, framework-free website for **Voltair Tech**. Built with React 18 (via Babel standalone) + plain CSS. **No build step required.** Drop on any static host and it works.
 
 ## 🚀 Deploy
 
@@ -87,4 +87,4 @@ All site copy lives in **`content.js`** as plain JS objects (services, FAQ, stat
 
 ---
 
-© 2026 Voltaire Tech · Andheri West, Mumbai · [voltairtech.com](https://voltairtech.com)
+© 2026 Voltair Tech · Andheri West, Mumbai · [voltairtech.com](https://voltairtech.com)

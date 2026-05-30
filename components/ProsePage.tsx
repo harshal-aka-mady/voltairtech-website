@@ -1,0 +1,42 @@
+import type { ReactNode } from "react";
+import Link from "next/link";
+import { PageLayout } from "./PageLayout";
+
+type Crumb = { label: string; href?: string };
+
+export function ProsePage({
+  crumbs,
+  title,
+  meta,
+  lead,
+  children,
+}: {
+  crumbs: Crumb[];
+  title: ReactNode;
+  meta?: string;
+  lead?: ReactNode;
+  children: ReactNode;
+}) {
+  return (
+    <PageLayout>
+      <section className="legal-page">
+        <div className="container">
+          <div className="legal-page__inner">
+            <nav className="legal-page__crumb" aria-label="Breadcrumb">
+              {crumbs.map((c, i) => (
+                <span key={c.label}>
+                  {c.href ? <Link href={c.href}>{c.label}</Link> : c.label}
+                  {i < crumbs.length - 1 ? " / " : null}
+                </span>
+              ))}
+            </nav>
+            <h1>{title}</h1>
+            {meta ? <div className="legal-page__meta">{meta}</div> : null}
+            {lead ? <p className="legal-page__lead">{lead}</p> : null}
+            {children}
+          </div>
+        </div>
+      </section>
+    </PageLayout>
+  );
+}

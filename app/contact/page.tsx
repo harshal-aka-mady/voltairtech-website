@@ -6,11 +6,11 @@ import { FooterCta } from "@/components/FooterCta";
 export const metadata: Metadata = {
   title: "Start a Project — AI Services Mumbai",
   description:
-    "Tell Voltaire Tech what you need to build. One line. We reply within an hour with a 48-hour plan. WhatsApp, email, or phone — Mumbai AI services studio.",
+    "Tell Voltair Tech what you need to build. One line. We reply within an hour with a 48-hour plan. WhatsApp, email, or phone — Mumbai AI services studio.",
   alternates: { canonical: "https://voltairtech.com/contact" },
   openGraph: {
     url: "https://voltairtech.com/contact",
-    title: "Start a Project — Voltaire Tech Mumbai",
+    title: "Start a Project — Voltair Tech Mumbai",
     description:
       "Type one line. We reply within an hour with a 48-hour plan. No forms, no decks, no fluff.",
   },

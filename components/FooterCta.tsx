@@ -93,7 +93,7 @@ export function FooterCta() {
                 <div className="ring" />
                 <div className="dot" />
               </div>
-              <div className="foot__pin-label">VOLTAIRTECH HQ · ANDHERI W</div>
+              <div className="foot__pin-label">VOLTAIR TECH HQ · ANDHERI W</div>
             </div>
             <div style={{ marginTop: 18, display: "flex", justifyContent: "space-between" }}>
               <span className="mono-lbl">19.13°N · 72.83°E</span>
@@ -102,7 +102,7 @@ export function FooterCta() {
           </div>
         </div>
         <div className="foot__legal">
-          <span>© 2026 VOLTAIRTECH · Andheri West, Mumbai · voltairtech.com</span>
+          <span>© 2026 VOLTAIR TECH · Andheri West, Mumbai · voltairtech.com</span>
           <span style={{ display: "flex", gap: 18 }}>
             <Link href="/privacy">privacy</Link>
             <Link href="/terms">terms</Link>
