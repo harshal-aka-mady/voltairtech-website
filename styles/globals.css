@@ -348,13 +348,13 @@ body { background: var(--v-paper); color: var(--v-ink); overflow-x: hidden; }
 
 /* ====================  FAQ  ==================== */
 .faq { display: flex; flex-direction: column; }
-.faq__item { border-top: 1.5px solid var(--v-ink); padding: var(--s-5) 0; cursor: pointer; }
-.faq__item:last-child { border-bottom: 1.5px solid var(--v-ink); }
+.faq__item { border-top: 1.5px solid var(--v-ink-line); padding: var(--s-5) 0; cursor: pointer; }
+.faq__item:last-child { border-bottom: 1.5px solid var(--v-ink-line); }
 .faq__q { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); }
 .faq__q-text { font-family: var(--font-display), "Inter Tight", sans-serif; font-weight: 700; font-size: clamp(1.05rem, 1.8vw, 1.45rem); letter-spacing: -0.015em; line-height: 1.25; }
-.faq__q-mark { width: 32px; height: 32px; border-radius: 50%; background: var(--v-ink); color: var(--v-paper); display: flex; align-items: center; justify-content: center; flex: none; font-size: 18px; transition: transform var(--dur-2) var(--ease-out), background var(--dur-2); }
-.faq__item[aria-expanded="true"] .faq__q-mark { background: var(--v-red); transform: rotate(45deg); }
-.faq__a { font-size: 15px; color: var(--fg2); line-height: 1.6; margin-top: 0; max-width: 760px; overflow: hidden; max-height: 0; transition: max-height var(--dur-3) var(--ease-out), margin-top var(--dur-3) var(--ease-out); }
+.faq__q-mark { width: 32px; height: 32px; border-radius: 50%; background: var(--v-ink-2); border: 1px solid var(--v-ink-line); color: var(--v-ink-fg); display: flex; align-items: center; justify-content: center; flex: none; font-size: 18px; transition: transform var(--dur-2) var(--ease-out), background var(--dur-2); }
+.faq__item[aria-expanded="true"] .faq__q-mark { background: var(--v-red); border-color: var(--v-red); color: var(--v-paper); transform: rotate(45deg); }
+.faq__a { font-size: 15px; color: var(--v-ink-fg-2); line-height: 1.6; margin-top: 0; max-width: 760px; overflow: hidden; max-height: 0; transition: max-height var(--dur-3) var(--ease-out), margin-top var(--dur-3) var(--ease-out); }
 .faq__item[aria-expanded="true"] .faq__a { max-height: 360px; margin-top: var(--s-4); }
 
 /* ====================  FOOTER CTA  ==================== */
